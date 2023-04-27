@@ -119,6 +119,7 @@ export default {
   },
   methods: {
     onSubmit() {
+      this.pageNo = 1
       this.getData()
     },
     currentChange(current){
