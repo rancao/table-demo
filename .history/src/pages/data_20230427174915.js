@@ -1,5 +1,4 @@
 import { isEmpty, get } from 'lodash'
-
 export function getDate(params = {}, pageNo = 1, pageSize = 10){
   let filteredData = []
   let dateValue = params.dateValue? params.dateValue: []

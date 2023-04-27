@@ -5,6 +5,7 @@ import Detail from '@/pages/detail'
 import NotFound from '@/pages/notFound'
 
 Vue.use(Router)
+
 export default new Router({
   mode: 'history',
   routes: [

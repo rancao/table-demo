@@ -1,11 +1,6 @@
 <template>
   <div class="detail">
-    <el-descriptions
-      class="margin-top"
-      title="xxx审核平台-审核页"
-      :column="3
-      border
-    >
+    <el-descriptions class="margin-top" title="xxx审核平台-审核页" :column="3" border>
       <el-descriptions-item>
         <template slot="label">
           <i class="el-icon-user"></i>
